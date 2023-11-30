@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+/*font-family: 'Roboto Condensed', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.hero{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.797), #164863e2), url('/img/imgbg.jpg') ;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+}
+
+.menu .navbar ul li a:hover {
+    color: #9BBEC8;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons i {
+    font-size: 25px;
+    color: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    color: #9BBEC8;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icon {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+button{
+    padding: 5px;
+    background: #427D9D;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: white;
+    width: 20%;
+    margin-left: 23.5rem;
+}
+
+
+/* Styling for container-xxl */
+.container-xxl {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Styling for section title */
+.section-title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 45px;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-left: 5rem;
+}
+
+/* Styling for form */
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 50%;
+    font-size: 1.1rem;
+    align-items: center center;
+}
+textarea.form-control {
+    resize: vertical;
+}
+
+/* Styling for form */
+.form-floating {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 20px;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-bottom: 20px;
+}
+
+/* Style for labels */
+.form-floating label {
+    color: #fff;
+    margin-right: 10x;
+    padding: 1%;
+}
+
+.byme {
+    color: #fff;
+    flex-direction: row-reverse;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.byme p{
+    margin-right: 50%;
+    margin-top: 110%;
+    padding-left: 25%;
+    padding-right: 25%;
+}

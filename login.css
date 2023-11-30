@@ -1,0 +1,50 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, #164863, rgba(0, 0, 0, 0.415));
+}
+
+button{
+    padding: 5px;
+    background: #427D9D;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: white;
+    width: 100%;
+}
+
+.button1{
+    width: 50%;
+}
+
+.judul{
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+}
+input{
+    background: #427D9D;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+}
